@@ -53,9 +53,9 @@ This project analyzes the relationship between cryptocurrency trader performance
     - `Timestamp IST`: When the trade happened
     - `Fee`: Trading fees paid
     
-- ![Trading over hours](visualisation/history_data/Trading_over_hours.png) 
+- ![Trading over Time](visualisation/history_data/Trading_over_time.png) 
 
-*Trading activity increased a lot in early 2025*
+- *Trading activity increased a lot in early 2025*
 
 - ![Weekly Trading](visualisation/history_data/Weekly_trading.png) 
 
