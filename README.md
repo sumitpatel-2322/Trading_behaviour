@@ -6,7 +6,8 @@
 
 This project analyzes the relationship between cryptocurrency trader performance and market sentiment using machine learning clustering techniques. I worked with over **211,000 trading transactions** from Hyperliquid exchange and Bitcoin Fear \& Greed Index data to find patterns that could help understand different types of traders.
 
-**![Main Trader Clusters](visualisation/Relation/Traders cluster.png)** - *Shows four different types of traders I found*
+**![Main Trader Clusters](visualisation/Relation/Traders%20cluster.png)
+*Shows four different types of traders I found**
 
 ## 🎯 What I Wanted to Find Out
 
