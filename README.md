@@ -5,8 +5,8 @@
 ## 📊 Project Overview
 
 This project analyzes the relationship between cryptocurrency trader performance and market sentiment using machine learning clustering techniques. I worked with over **211,000 trading transactions** from Hyperliquid exchange and Bitcoin Fear \& Greed Index data to find patterns that could help understand different types of traders.
-
-**🎯`visualisation/Relation/Traders cluster.png`** - *Shows four different types of traders I found*
+![Main Trader Clusters](visualisation/Relation/Traders%20cluster.png)
+*Shows four different types of traders I found*
 
 ## 🎯 What I Wanted to Find Out
 
@@ -26,9 +26,12 @@ This project analyzes the relationship between cryptocurrency trader performance
     - `date`: Trading date
     - `value`: Sentiment score (0-100)
     - `classification`: 5 categories (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
-- `visualisation/Fear_greed/Monthly_fear_greed_avg.png` - *Monthly sentiment trends*
-- `visualisation/Fear_greed/Daily_Fear_greed.png` - *Daily sentiment changes*
-- `visualisation/Fear_greed/Quarterly_fear_greed.png` - *Quarterly sentiment patterns*
+
+*Monthly sentiment trends*
+
+*Daily sentiment changes*
+
+*Quarterly sentiment patterns*
 
 **2. Trading Transaction Data**
 
@@ -43,10 +46,12 @@ This project analyzes the relationship between cryptocurrency trader performance
     - `Size USD`: How much money was involved
     - `Timestamp IST`: When the trade happened
     - `Fee`: Trading fees paid
-- `visualisation/history_data/Trading_over_hours.png` - *Trading activity increased a lot in early 2025*
-- `visualisation/history_data/Weekly_trading.png` - *Most trading happens on weekdays, especially Wednesday (18.8%)*
-- `visualisation/history_data/Traders_PNL.png` - *Shows how different traders performed*
 
+*Trading activity increased a lot in early 2025*
+
+*Most trading happens on weekdays, especially Wednesday (18.8%)*
+
+*Shows how different traders performed*
 
 ### What I Created from the Data
 
@@ -80,7 +85,7 @@ features_used = [
 ]
 ```
 
-**`visualisation/Relation/Cluster_bar_graph.png`** - *Comparison of different trader groups*
+*Comparison of different trader groups*
 
 ### Steps I Followed
 
@@ -156,7 +161,7 @@ features_used = [
 
 ### When People Trade
 
-**`visualisation/Relation/Weekly Trades vs Sentiment.png`** - *Shows how different trader groups react to market sentiment*
+*Shows how different trader groups react to market sentiment*
 
 **Weekly Patterns**:
 
@@ -302,3 +307,4 @@ Understanding your trader type and matching it with optimal market conditions ca
 ***
 
 *This analysis demonstrates how machine learning can reveal hidden patterns in trading behavior. By combining market sentiment data with detailed transaction analysis, we can better understand what makes different traders successful.*
+
