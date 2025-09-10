@@ -27,11 +27,17 @@ This project analyzes the relationship between cryptocurrency trader performance
     - `value`: Sentiment score (0-100)
     - `classification`: 5 categories (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
 
-*Monthly sentiment trends*
+- ![Monthly Fear/Greed](visualisation/Fear_greed/Monthly_fear_greed_avg.png) 
 
-*Daily sentiment changes*
+- *Long-term sentiment trends showing market cycles*
 
-*Quarterly sentiment patterns*
+- ![Daily Fear/Greed](visualisation/Fear_greed/Daily_Fear_greed.png) 
+
+- *Daily sentiment volatility patterns*
+
+- ![Quarterly Fear/Greed](visualisation/Fear_greed/Quarterly_fear_greed.png)
+
+- *Quarterly sentiment analysis revealing macro trends*
 
 **2. Trading Transaction Data**
 
@@ -46,12 +52,18 @@ This project analyzes the relationship between cryptocurrency trader performance
     - `Size USD`: How much money was involved
     - `Timestamp IST`: When the trade happened
     - `Fee`: Trading fees paid
+    
+- ![Trading over hours](visualisation/history_data/Trading_over_hours.png) 
 
 *Trading activity increased a lot in early 2025*
 
-*Most trading happens on weekdays, especially Wednesday (18.8%)*
+- ![Weekly Trading](visualisation/history_data/Weekly_trading.png) 
 
-*Shows how different traders performed*
+- *Reveals weekday trading dominance (Wednesday peak: 18.8%)*
+
+- ![Hourly Trading](visualisation/history_data/Trading_over_hours.png) 
+
+- *Peak trading at 20:00 IST (9:30 AM ET) during market hours*
 
 ### What I Created from the Data
 
@@ -67,6 +79,9 @@ This project analyzes the relationship between cryptocurrency trader performance
 - What percentage of time they made profits, losses, or broke even
 - How efficient they were (profit per trade, profit per dollar traded)
 
+![Individual Trading perfomance](visualisation/history_data/Traders_PNL.png) 
+
+- *Individual trader performance distribution showing the 80/20 rule in action*
 
 ## 🔬 How I Analyzed the Data
 
@@ -84,6 +99,8 @@ features_used = [
     'Profit_Rate', 'Loss_Rate', 'Neutral_Rate'
 ]
 ```
+
+![Cluster Bar Graph](visualisation/Relation/Cluster_bar_graph.png)
 
 *Comparison of different trader groups*
 
@@ -137,6 +154,10 @@ features_used = [
 
 ### Market Sentiment and Profits
 
+![Sentiment Vs Profit](visualisation/Relation/Market_Sentiment_vs_Profit.png)
+
+- *Comprehensive sentiment analysis with profit distributions*
+
 | Market Feeling | Success Rate | Avg Profit When Winning | Avg Loss When Losing | Total Days |
 | :-- | :-- | :-- | :-- | :-- |
 | **Extreme Fear** 🔴 | 44.3% | \$6,579 | -\$8,376 | 461 |
@@ -160,6 +181,8 @@ features_used = [
 **Interesting Discovery**: Careful Traders do really well when emotions are extreme (very fearful or very greedy markets).
 
 ### When People Trade
+
+![Weekly Trade vs Sentiment](visualisation/Relation/Weekly%20Trades%20vs%20Sentiment.png)
 
 *Shows how different trader groups react to market sentiment*
 
