@@ -26,7 +26,7 @@ This project analyzes the relationship between cryptocurrency trader performance
     - `date`: Trading date
     - `value`: Sentiment score (0-100)
     - `classification`: 5 categories (Extreme Fear, Fear, Neutral, Greed, Extreme Greed)
-- `visualisation/Fear_greed/Monthly_fear_greed_avg.png` - *Monthly sentiment trends*
+- `Trading_behaviour/visualisation/Fear_greed/Monthly_fear_greed_avg.png` - *Monthly sentiment trends*
 - `visualisation/Fear_greed/Daily_Fear_greed.png` - *Daily sentiment changes*
 - `visualisation/Fear_greed/Quarterly_fear_greed.png` - *Quarterly sentiment patterns*
 
